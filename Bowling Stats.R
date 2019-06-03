@@ -17,7 +17,7 @@ plot.games <- function(scores){
       lines(scores[5:nrow(scores),1],rollapply(scores[,i],5,mean), col = "red")
     }else{
       plot(scores[,1], scores[,i], main="Series Over Time")
-      lines(scores[5:lnrow(scores),1],rollapply(scores[,i],5,mean), col = "red")
+      lines(scores[5:nrow(scores),1],rollapply(scores[,i],5,mean), col = "red")
     }
   }
 }
