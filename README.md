@@ -14,8 +14,8 @@ Checks normality by shapiro-wilks.
 Performs wilcoxon test on each bowler's own game/series data, and compares games/series between bowlers to see if there is enough evidence to show that they are from different sets of data (in other words, whether one bowler is better or worse than another). 
 Code could be optimized, and some sort of predictive analysis could be performed to see if the distributions will match in the future, but for now it does what I wanted it to for now. 
 Note, one bowler missed the first week and had blind scores. 
-Clearly this isn't reflective of their ability so that week was removed for bowler #2 scores (Bowler S). This must be remembered when picking files when inputting data.
+Clearly this isn't reflective of their ability so that week was removed for bowler #2 scores. This must be remembered when picking files when inputting data.
 
-1 bowler (bowler J dataset) has a statistically significant difference in bowling scores when compared to the other bowlers. 
+Bowler #1 has a statistically significant difference in bowling scores when compared to the other bowlers. 
 A few outliers exist for each bowler by checking the Boxplots. 
 Moving average data seems to be more interesting and descriptive than lineare regression. It shows slight improvement over the course of the season, and where scores dipped or increased over intervals. 
