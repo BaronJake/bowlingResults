@@ -18,4 +18,4 @@ Clearly this isn't reflective of their ability so that week was removed for bowl
 
 1 bowler (bowler J dataset) has a statistically significant difference in bowling scores when compared to the other bowlers. 
 A few outliers exist for each bowler by checking the Boxplots. 
-Moving average data is interesting and shows slight improvement over the course of the season, and where scores dipped or increased over intervals. 
+Moving average data seems to be more interesting and descriptive than lineare regression. It shows slight improvement over the course of the season, and where scores dipped or increased over intervals. 
