@@ -14,7 +14,7 @@ Checks normality by shapiro-wilks. Bowler #2 had a non-normal set of data so we'
 
 Performs wilcoxon test on each bowler's own game/series data, and compares games/series between bowlers to see if there is enough evidence to show that they are from different sets of data (in other words, whether one bowler is better or worse than another). 
 
-Code could be optimized, but with only 3 sets of score, it's easy enough to copy and paste to reuse code. Any more than say 5 and defining small functions may be worthwhile. Updating pieces is kind of a pain when making changes, but since they're all lumped together it isn't as bad as it could be.
+Code could be optimized, but with only 3 sets of score, it's easy enough to copy and paste to reuse code. Updating pieces is kind of a pain when making changes, but since they're all lumped together it isn't as bad as it could be.
 
 Some sort of predictive analysis could be performed to see if the distributions will match in the future. A Time Series Analysis may be appropriate. Not sure if there's enough data to train LSTM or RNN
 
